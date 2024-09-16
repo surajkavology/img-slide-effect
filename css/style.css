@@ -41,7 +41,7 @@ p{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(20, 200px);  
-    gap: 5px;
+    gap: 20px;
   }
 
   .grid div {
