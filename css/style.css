@@ -20,9 +20,7 @@ img, video{
     max-width: 100%;
 }
 
-p{
-    font-family: "open", sans-serif;
-}
+
 #main{
     background-color: #111;
     overflow: hidden;
@@ -35,7 +33,7 @@ p{
     justify-content: center;
     align-items: center;
     color: #fff;
-    z-index: 99;
+    z-index: 1;
 }
 .grid {
     display: grid;
@@ -68,6 +66,16 @@ p{
     text-align: center;
 }
 
-.content{
-    padding: 20px;
+.content {
+    padding: 120px 20px;
+    position: relative;
+    z-index: 9;
+    background: #f5f0ea;
+}
+
+.content p {
+    max-width: 800px;
+    line-height: 1.7;
+    margin: 0 auto;
+    font-size: 18px;
 }
